@@ -217,7 +217,9 @@ export default function Home() {
                   alt="Expressjs Icon"
                   className=" inline py-5"
                 />
-                <h3 className="text-2xl font-bold dark:text-white mt-2">Prisma</h3>
+                <h3 className="text-2xl font-bold dark:text-white mt-2">
+                  Prisma
+                </h3>
               </div>
               <div className="text-center shadow-lg p-5 rounded-xl my-10 dark:bg-gradient-to-b from-purple-600 ">
                 <Image
@@ -251,67 +253,33 @@ export default function Home() {
         <section>
           <div>
             <h3 className=" text-3xl py-5 font-bold opacity-60 dark:text-white dark:opacity-100">
-              Portofolio
+              Working Experience
             </h3>
             <p className=" text-sm py-2 text-gray-400 leading-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-              distinctio nihil fugiat ea perferendis qui nulla facere
-              consequatur dolor sit amet consectetur adipisicing elit. Itaque
-              distinctio nihil perferendis qui nulla facere consequatur dolor
-              sit amet consectetur adipisicing elit. Itaque distinctio nihil
+              <ul>
+                <li>
+                  <p className="font-semibold">
+                    1. Junior Mobile Developer at Kontrakin (Sep 2021 - Des
+                    2021) (Assist Initial Developing of Kontrakin App){' '}
+                    {`{Flutter}`}
+                  </p>
+                </li>
+                <li>
+                  <p className="font-semibold">
+                    2. Fullstack Developer at Homefunding (Jan 2023 - now)
+                    (Writing Code For Backend Core of Homefunding App, Backend
+                    for Landing Page ,Dashboard, and Landing Page)
+                    {`{React js, Next, Express, Prisma, Redis, Typescript, Strapi}`}
+                  </p>
+                </li>
+                <p className="font-semibold">
+                  3. Freelance at Gyloop (August 2023 - Nov 2023){' '}
+                  {`{Typescript, Next, Express}`}
+                </p>
+              </ul>
             </p>
           </div>
-          {/* images */}
-          <div className="flex flex-col gap-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={web1}
-                alt="web images"
-                className="rounded-lg object-cover w-full h-full"
-                layout="responsive"
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={web2}
-                alt="web images"
-                className="rounded-lg object-cover w-full h-full"
-                layout="responsive"
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={web3}
-                alt="web images"
-                className="rounded-lg object-cover w-full h-full"
-                layout="responsive"
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={web3}
-                alt="web images"
-                className="rounded-lg object-cover w-full h-full"
-                layout="responsive"
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={web2}
-                alt="web images"
-                className="rounded-lg object-cover w-full h-full"
-                layout="responsive"
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src={web1}
-                alt="web images"
-                className="rounded-lg object-cover w-full h-full"
-                layout="responsive"
-              />
-            </div>
-          </div>
+          {/* Working Experience */}
         </section>
       </main>
     </div>
