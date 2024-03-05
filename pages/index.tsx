@@ -53,9 +53,9 @@ export default function Home() {
       <main className="font-poppins bg-white px-10 md:px -20 lg:px-40 dark:bg-black">
         <section className="min-h-screen">
           <nav className="py-10 mb12 flex justify-between">
-            <h1 className=" text-xl dark:text-white">
+            {/* <h1 className=" text-xl dark:text-white">
               Developed by Marcellino
-            </h1>
+            </h1> */}
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
